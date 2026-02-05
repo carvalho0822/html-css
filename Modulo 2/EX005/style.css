@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body {
+    background-color: #cff8f2;
+    
+    ; 
+}
+
+h1#principal{
+    background-color: #54a08e;
+    color: #1c2421;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-style: oblique;
+   border-radius: 10px;
+}
+
+
+
+h1{
+    color: #2b3636;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid#000000;
+    border-radius: 10px;
+           
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.basico{
+    color: green
+}
+
+.intermediario{
+    color: rgba(180, 180, 67, 0.719);
+}
+
+.avançado{
+    color: rgb(153, 50, 50);
+}
+
+p{
+    text-align: justify;
+}
+
+.foto{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 6px;
+    background: #000000;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin: 30px auto;
+
+}

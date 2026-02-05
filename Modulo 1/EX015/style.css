@@ -1,0 +1,22 @@
+@charset
+<style> 
+body { 
+    background-color: aqua;
+}
+h1 {
+    color: brown;
+}
+h2 {
+    color: blueviolet;
+}
+p {
+    text-align: justify;
+}
+p {
+    text-align: left;
+}
+h1 {
+    text-align: center;
+}
+
+</style>
