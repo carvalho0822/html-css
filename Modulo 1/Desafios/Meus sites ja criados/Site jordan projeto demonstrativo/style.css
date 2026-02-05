@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+* {
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
+    background: url(gray-painted-background.jpg);  
+}
+
+section {
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    max-width: 1200px;
+}
+
+.cabeça {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: #000000;
+}
+
+.cabeça section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.menu a {
+
+    margin: 0 1rem;
+    color: #ffffff;
+}
+
+.menu a:hover {
+    color: rgb(235, 8, 8);
+    border-bottom: 0.1rem solid white;
+    font-size: 1.2rem;
+}
+
+.icones img {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.icones img:hover {
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    background-color: red;
+    color: #000000;
+    padding:  10px 2rem;
+    cursor: pointer;
+      display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+
+.import {
+    color: black;
+    background-color: red;
+    padding:  10px 2rem;
+    cursor: pointer;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    padding-top: 80px;
+    border-bottom: 1px solid black;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+article{
+    border-bottom: 2px solid black;
+    width: 300px;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    text-align: justify;
+    padding: 5px;
+
+}
+
+
+.jordanh{
+    color: rgb(0, 0, 0);
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
