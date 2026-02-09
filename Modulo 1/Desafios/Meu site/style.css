@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;   /* itens ficam um embaixo do outro */
+        align-items: center;
+    }
+
+    .menu a {
+        margin: 0.5rem 0;         /* espaço vertical entre os links */
+        font-size: 1.1rem;        /* levemente menor no celular */
+    }
+
+    .icones {
+        margin-top: 10px;         /* separa os ícones do menu */
+    }
+}
+
 * {
     text-decoration: none;
     text-transform: capitalize;
@@ -36,8 +52,14 @@ section {
     padding-bottom: 1.5rem;
 }
 
-.menu a {
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.menu a {
     margin: 0 1rem;
     color: #ffffff;
 }
