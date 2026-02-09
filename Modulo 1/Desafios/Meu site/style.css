@@ -1,20 +1,5 @@
 @charset "UTF-8";
 
-@media (max-width: 768px) {
-    .menu {
-        flex-direction: column;   /* itens ficam um embaixo do outro */
-        align-items: center;
-    }
-
-    .menu a {
-        margin: 0.5rem 0;         /* espaço vertical entre os links */
-        font-size: 1.1rem;        /* levemente menor no celular */
-    }
-
-    .icones {
-        margin-top: 10px;         /* separa os ícones do menu */
-    }
-}
 
 * {
     text-decoration: none;
@@ -113,7 +98,12 @@ h1{
     margin: 0;
     padding-top: 80px;
     border-bottom: 1px solid black;
+   
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
 
 h2{
     text-align: center;
@@ -125,6 +115,13 @@ h3{
 
 h4{
     text-align: center;
+}
+
+p{
+  font-family: "Federant", serif;
+  font-weight: 400;
+  font-style: normal;
+ 
 }
 
 article{
@@ -148,4 +145,10 @@ article{
     text-align: justify;
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span{
+    color: red;
+    text-shadow: 3px 2px black;
+    text-decoration: underline;
 }
