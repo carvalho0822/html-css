@@ -11,23 +11,25 @@
         .conteiner{
             background-color: aqua;
             display: flex;
-            flex-flow: row wrap;
-            
+            flex-flow: row nowrap;
         }
-
+        
         .item{
             background-color: blueviolet;  
             border: 1px solid black; 
-            flex: auto;
+            flex-basis: 250px;
+            flex-grow: 0, 1, 0;
+            flex-shrink: 1 ;
+            
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">EXEMPLO DE BLOCO A</div>
-        <div class="item">EXEMPLO DE BLOCO B</div>
-        <div class="item">EXEMPLO DE BLOCO C</div>
-        <div class="item">EXEMPLO DE BLOCO D</div>
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        
     </div>
     
 </body>
